@@ -26,7 +26,7 @@ export const facts = [
     },
     {
         title: "สิ่งที่หลงไหล",
-        content: "เทคโนโลยี, ดนตรี, Sound Engineer System"
+        content: "เทคโนโลยี , ดนตรี , Sound Engineer System"
     },
     {
         title: "อาหารที่ชอบ",
