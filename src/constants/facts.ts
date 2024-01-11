@@ -30,6 +30,6 @@ export const facts = [
     },
     {
         title: "อาหารที่ชอบ",
-        content: "ข้าวขาหมู"
+        content: "หลายอย่าง"
     },
 ];
