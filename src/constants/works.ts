@@ -39,5 +39,15 @@ export const works = [
         url: "https://mannez.site",
         image: "/images/mannez.site.png"
     },
+    {   
+        org: {
+            name: "Jittiphat",
+            url: "https://mannez.site"
+        },
+        title: "310room.mannez.site",
+        description: "เว็บไซต์ของห้อง 3/10 BWN",
+        url: "https://310room.mannez.site",
+        image: "/images/Screenshot-310room.png"
+    },
     
 ]
