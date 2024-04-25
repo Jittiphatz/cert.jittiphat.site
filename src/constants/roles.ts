@@ -13,7 +13,7 @@ export const roles = [
         org: {
             name: "Maki Service Shop",
             image: "",
-            url: "https://github.com/Maki-Service-Shop"
+            url: "https://maki-service.xyz"
         },
         description: "April 23, 2023 - Present"
     },

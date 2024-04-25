@@ -14,7 +14,7 @@ export const works = [
             name: "Mori Dev",
             url: "https://github.com/MoriDev-2023"
         },
-        title: "Kuro Music",
+        title: "Kuro Music (ปิดปรับปรุง)",
         description: "บอทดิสคอร์ดที่เขียนด้วย JavaScript และมีระบบเล่นเพลง และอื่นๆ",
         url: "https://kuro-music.mannez.site",
         image: "/images/kuro-music.png"
@@ -34,20 +34,20 @@ export const works = [
             name: "Jittiphat",
             url: "https://mannez.site"
         },
-        title: "mannez.site",
-        description: "เว็บไซต์หลักของผมเอง",
-        url: "https://mannez.site",
-        image: "/images/mannez.site.png"
+        title: "3/10 Room Website",
+        description: "เว็บไซต์ของห้อง 3/10 BWN",
+        url: "https://310room.mannez.site",
+        image: "/images/Screenshot-310room.png"
     },
     {   
         org: {
             name: "Jittiphat",
             url: "https://mannez.site"
         },
-        title: "310room.mannez.site",
-        description: "เว็บไซต์ของห้อง 3/10 BWN",
-        url: "https://310room.mannez.site",
-        image: "/images/Screenshot-310room.png"
+        title: "Bio Website",
+        description: "เว็บไซต์ Bio ของผมเอง",
+        url: "https://bio.mannez.site",
+        image: "/images/bio.png"
     },
     
 ]

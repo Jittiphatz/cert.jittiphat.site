@@ -14,11 +14,12 @@ export function FactCard({
         <BaseCard>
             <p className="text-white/40">{title}</p>
             {isLoveEasterEgg ? (
-                <Link to="https://mannez.site" className="text-xl font-semibold transition duration-500 ease-in-out hover:text-blue-500">
+                <Link to="https://boon.ac.th" className="text-xl font-normal transition duration-500 ease-in-out hover:text-blue-600">
                     {content}
                 </Link>
             ) : (
-                <h1 className="text-xl font-semibold">{content}</h1>
+                <h1 className="text-xl font-normal">{content}</h1>
+                
             )}
         </BaseCard>
     );
@@ -46,9 +47,9 @@ export function RoleCard({
     return (
         <BaseCard>
             <h1 className="text-xl">
-                {isFormer && "former"} <span className="font-bold">{role}</span>{" "}
+                {isFormer && "former"} <span className="font-normal">{role}</span>{" "}
                 at{" "}
-                <Link to={org.url} className="font-bold underline">
+                <Link to={org.url} className="font-normal underline">
                     {org.name}
                 </Link>
             </h1>
@@ -80,12 +81,12 @@ export function WorkCard({
             <div className="p-6">
                 <div className="flex justify-between">
                     <div>
-                        <Link to={url} className="text-xl font-bold underline">
+                        <Link to={url} className="text-xl font-normal underline">
                             {title}
                         </Link>
                         <p>{description}</p>
                     </div>
-                    <Link to={org.url} className="text-sm underline">
+                    <Link to={org.url} className="text-sm">
                         {org.name}
                     </Link>
                 </div>

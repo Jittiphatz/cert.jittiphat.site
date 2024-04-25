@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Ubuntu', 'IBM Plex Sans Thai', sans-serif;
+    font-family: "Mitr", sans-serif;
 }
 
 input:-webkit-autofill,

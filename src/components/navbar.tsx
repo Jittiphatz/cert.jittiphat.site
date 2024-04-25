@@ -10,17 +10,17 @@ export default function Navbar() {
             }`}
         >
             <ul className="w-auto sm:w-[20%] hidden sm:flex items-center justify-center sm:justify-start space-x-6">
-                <a href="https://github.com/Maki-Service-Shop" title="Maki">
+                <a href="https://maki-service.xyz" title="Maki Service Shop">
                     <img
-                        alt="Maki"
-                        width="32"
-                        height="32"
+                        alt="Maki Service Shop"
+                        width="42"
+                        height="42"
                         src="images/maki.png"
                     />
                 </a>
-                <a href="https://github.com/MoriDev-2023" title="Mori">
+                <a href="https://github.com/MoriDev-2023" title="Mori Dev">
                     <img
-                        alt="Mori"
+                        alt="Mori Dev"
                         width="42"
                         height="42"
                         src="images/mori.png"
@@ -28,23 +28,24 @@ export default function Navbar() {
                 </a>
             </ul>
             <div className="w-full flex justify-center items-center space-x-6 text-base sm:text-lg">
-                <Link to="/">/home</Link>
-                <Link to="/facts">/facts</Link>
-                <Link to="/roles">/roles</Link>
-                <Link to="/works">/works</Link>
+                <Link to="/">Home</Link>
+                <Link to="/facts">Facts</Link>
+                <Link to="/roles">Roles</Link>
+                <Link to="/works">Works</Link>
+                <Link to="https://status.mannez.site">System Status</Link>
             </div>
             <ul className="w-auto sm:w-[20%] flex justify-center items-center sm:justify-end space-x-6">
-                <a className="block sm:hidden" href="https://github.com/Maki-Service-Shop" title="Maki">
+                <a className="block sm:hidden" href="https://maki-service.xyz" title="Maki Service Shop">
                     <img
-                        alt="Maki"
-                        width="32"
-                        height="32"
+                        alt="Maki Service Shop"
+                        width="42"
+                        height="42"
                         src="images/maki.png"
                     />
                 </a>
-                <a className="block sm:hidden" href="https://github.com/MoriDev-2023" title="Mori">
+                <a className="block sm:hidden" href="https://github.com/MoriDev-2023" title="Mori Dev">
                     <img
-                        alt="Mori"
+                        alt="Mori Dev"
                         width="42"
                         height="42"
                         src="images/mori.png"
