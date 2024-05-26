@@ -9,7 +9,7 @@ export const roles = [
         description: "Aug 12, 2022 - Present"
     },
     {
-        role: "CEO, Founder",
+        role: "Founder, Developer",
         org: {
             name: "Maki Service Shop",
             image: "",
