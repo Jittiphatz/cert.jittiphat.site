@@ -24,7 +24,7 @@ export const roles = [
             image: "",
             url: "https://www.instagram.com/onewenoneband"
         },
-        description: "June 22, 2023 - Present"
+        description: "June 21, 2023 - Present"
     },
     
 ]
