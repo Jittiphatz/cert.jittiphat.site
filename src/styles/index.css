@@ -72,7 +72,7 @@
 }
 
 .bg-photo {
-    opacity: .2;
+    opacity: .1;
     scale: 1.1;
     animation: bg-photo-animate 5s;
 }

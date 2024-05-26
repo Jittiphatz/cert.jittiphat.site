@@ -32,7 +32,10 @@ export default function Navbar() {
                 <Link to="/facts">Facts</Link>
                 <Link to="/roles">Roles</Link>
                 <Link to="/works">Works</Link>
+                <Link to="/cert">Certificate</Link>
+                <Link to="/contact">Contact me</Link>
                 <Link to="https://status.mannez.site">System Status</Link>
+
             </div>
             <ul className="w-auto sm:w-[20%] flex justify-center items-center sm:justify-end space-x-6">
                 <a className="block sm:hidden" href="https://maki-service.xyz" title="Maki Service Shop">

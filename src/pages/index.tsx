@@ -8,12 +8,12 @@ export default function HomePage() {
             >
                 <img
                     className="absolute top-0 left-0 w-full h-full object-cover bg-aura-animate"
-                    src="/images/bg-red.jpg"
+                    src="/images/bg/bg-red.jpg"
                     alt="bg-red"
                 />
                 <img
                     className="absolute top-0 left-0 w-full h-full object-cover object-left bg-photo"
-                    src="/images/drummer.jpg"
+                    src="/images/bg/drummer.jpg"
                     alt="drummer"
                 />
 

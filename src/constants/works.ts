@@ -7,7 +7,7 @@ export const works = [
         title: "Mori Music",
         description: "บอทดิสคอร์ดที่เขียนด้วย TypeScript และมีระบบเล่นเพลง และอื่นๆ",
         url: "https://mori-dev.mannez.site",
-        image: "/images/mori-setup.png"
+        image: "/images/projects/mori-setup.png"
     },
     {   
         org: {
@@ -17,17 +17,7 @@ export const works = [
         title: "Kuro Music (ปิดปรับปรุง)",
         description: "บอทดิสคอร์ดที่เขียนด้วย JavaScript และมีระบบเล่นเพลง และอื่นๆ",
         url: "https://kuro-music.mannez.site",
-        image: "/images/kuro-music.png"
-    },
-    {   
-        org: {
-            name: "Jittiphat",
-            url: "https://mannez.site"
-        },
-        title: "Website Portfolio",
-        description: "เว็บไซต์ Portfolio ของผมเอง",
-        url: "https://portfolio.mannez.site",
-        image: "/images/portfolio.mannez.site.png"
+        image: "/images/projects/kuro-music.png"
     },
     {   
         org: {
@@ -37,7 +27,7 @@ export const works = [
         title: "3/10 Room Website",
         description: "เว็บไซต์ของห้อง 3/10 BWN",
         url: "https://310room.mannez.site",
-        image: "/images/Screenshot-310room.png"
+        image: "/images/projects/Screenshot-310room.png"
     },
     {   
         org: {
@@ -47,7 +37,7 @@ export const works = [
         title: "Bio Website",
         description: "เว็บไซต์ Bio ของผมเอง",
         url: "https://bio.mannez.site",
-        image: "/images/bio.png"
+        image: "/images/projects/bio.png"
     },
     
 ]

@@ -6,7 +6,7 @@ export default function MainTemplate({ children }: { children: ReactNode }) {
         <div
             className="min-h-screen bg-cover bg-center p-8 pb-48"
             style={{
-                backgroundImage: "url(/images/bg-red.jpg)",
+                backgroundImage: "url(/images/bg/bg-red.jpg)",
             }}
         >
             <AnimatedPage>{children}</AnimatedPage>

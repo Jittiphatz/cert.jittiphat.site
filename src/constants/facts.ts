@@ -17,7 +17,7 @@ export const facts = [
     },
     {
         title: "สถานะ",
-        content: "ไม่มีแฟน",
+        content: "มีคนคุย",
         isLoveEasterEgg: false
     },
     {
