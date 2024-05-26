@@ -6,14 +6,16 @@ export const contact = [
             image: "",
             url: "https://www.instagram.com/mannez_xyz/"
         },
+        description: ""
     },
     {
-        role: "🧿 Facebook :",
+        role: "🧿 Facebook : ",
         org: {
             name: "Jittiphat Somsai",
             image: "",
             url: "https://www.facebook.com/Jittiphatz4966"
         },
+        description: ""
     },
     {
         role: "📥 Email : ",
@@ -22,13 +24,15 @@ export const contact = [
             image: "",
             url: "mailto:Jittiphat@mannez.site"
         },
+        description: ""
     },
     {
         role: "💸 Donate Me : ",
         org: {
-            name: "Donate",
+            name: "EasyDonate",
             image: "",
             url: "https://ezdn.app/MANNEZ"
         },
+        description: ""
     },
 ]

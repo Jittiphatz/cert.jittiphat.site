@@ -187,6 +187,7 @@ export function CertCard({
 export function ContactCard({
     role,
     org,
+    description,
     isFormer,
 }: {
     role: string;
