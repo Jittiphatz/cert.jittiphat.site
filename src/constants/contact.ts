@@ -27,6 +27,15 @@ export const contact = [
         description: ""
     },
     {
+        role: "🐱 GitHub : ",
+        org: {
+            name: "MANNEZ4966",
+            image: "",
+            url: "https://github.com/MANNEZ4966"
+        },
+        description: ""
+    },
+    {
         role: "💸 Donate Me : ",
         org: {
             name: "EasyDonate",
@@ -35,4 +44,5 @@ export const contact = [
         },
         description: ""
     },
+    
 ]

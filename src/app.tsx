@@ -6,6 +6,7 @@ import WorksPage from "./pages/works";
 import RolesPage from "./pages/roles";
 import CertPage from "./pages/cert";
 import ContactPage from "./pages/contact";
+import HelloPage from "./pages/helloworld";
 import { AnimatePresence } from "framer-motion";
 
 const routes = [
@@ -32,6 +33,10 @@ const routes = [
     {
         path: "/contact",
         element: <ContactPage />,
+    },
+    {
+        path: "/Hello-World",
+        element: <HelloPage />,
     },
     {
         path: "*",
