@@ -7,7 +7,7 @@ export default function Certificate() {
     return (
         <MainTemplate>
             <PageTitle title="Certificate" description="เกียรติบัตรต่างๆ ของผม" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
                 {cert.map((c, idx) => (
                     <CertCard key={idx} {...c} />
                 ))}

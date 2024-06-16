@@ -17,15 +17,14 @@ export const facts = [
     },
     {
         title: "สถานะ",
-        content: "มีคนคุย",
-        isLoveEasterEgg: false
+        content: "",
+        isContent2Egg: true
     },
     {
         title: "ศึกษาอยู่ที่",
         content: "โรงเรียนบุญวัฒนา",
         isLoveEasterEgg: true
     },
-    
     {
         title: "สิ่งที่หลงไหล",
         content: "เทคโนโลยี , ดนตรี , Sound Engineer System"

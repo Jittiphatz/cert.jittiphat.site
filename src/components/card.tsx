@@ -5,9 +5,11 @@ export function FactCard({
     title,
     content,
     isLoveEasterEgg,
+    isContent2Egg,
 }: {
     title: string;
     content: string;
+    isContent2Egg?: boolean;
     isLoveEasterEgg?: boolean;
 }) {
     return (
@@ -19,11 +21,19 @@ export function FactCard({
                 </Link>
             ) : (
                 <h1 className="text-xl font-normal">{content}</h1>
-                
+            )}
+            {isContent2Egg ? (
+                <Link to="https://www.instagram.com/iicxery_/" className="text-xl font-normal transition duration-500 ease-in-out hover:text-pink-600">มีแฟนแล้ว
+                    {content}
+                </Link>
+            ) : (
+                <h1 className="text-xl font-normal"></h1>
             )}
         </BaseCard>
+        
     );
 }
+
 
 export function BaseCard({ children }: { children: ReactNode }) {
     return (
