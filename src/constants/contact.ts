@@ -29,9 +29,9 @@ export const contact = [
     {
         role: "🐱 GitHub : ",
         org: {
-            name: "MANNEZ4966",
+            name: "Jittiphatz",
             image: "",
-            url: "https://github.com/MANNEZ4966"
+            url: "https://github.com/Jittiphatz"
         },
         description: ""
     },
