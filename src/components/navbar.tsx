@@ -34,7 +34,7 @@ export default function Navbar() {
                 <Link to="/works">Works</Link>
                 <Link to="/cert">Certificate</Link>
                 <Link to="/contact">Contact me</Link>
-                <Link to="https://status.mannez.site">Status</Link>
+                <Link to="https://status.jittiphat.site">Status</Link>
 
             </div>
             <ul className="w-auto sm:w-[20%] flex justify-center items-center sm:justify-end space-x-6">

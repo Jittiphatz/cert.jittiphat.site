@@ -12,11 +12,11 @@ export const cert = [
     {   
         org: {
             name: "ศิลปะหัถกรรมครั้งที่ 71",
-            url: "https://2566.compet.site/Compet.Mattayom31SM/show_register_activity.php?id=643"
+            url: "https://2566.compet.site/Compet.Mattayom31SM/index.php"
         },
         title: "การประกวดวงดนตรีสตริง ระดับชั้น ม.1-ม.3",
         description: "ลำดับที่ 4 ระดับเขต ชั้นมัธยมศึกษาปีที่ 3 | 21 ธันวาคม 2566",
-        url: "https://kuro-music.mannez.site",
+        url: "https://2566.compet.site/Compet.Mattayom31SM/show_register_activity.php?id=643",
         image: "/images/cert/cert-71.png"
     },
     {   

@@ -20,9 +20,9 @@ export const contact = [
     {
         role: "📥 Email : ",
         org: {
-            name: "Jittiphat@mannez.site",
+            name: "Jittiphat@jittiphat.site",
             image: "",
-            url: "mailto:Jittiphat@mannez.site"
+            url: "mailto:Jittiphat@jittiphat.site"
         },
         description: ""
     },
