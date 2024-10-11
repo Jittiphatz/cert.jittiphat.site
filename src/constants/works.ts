@@ -14,10 +14,20 @@ export const works = [
             name: "Mori Dev",
             url: "https://github.com/MoriDev-2023"
         },
-        title: "Kuro Music (ปิดปรับปรุง)",
+        title: "Kuro Music",
         description: "บอทดิสคอร์ดที่เขียนด้วย JavaScript และมีระบบเล่นเพลง และอื่นๆ",
         url: "https://kuro-music.jittiphat.site",
         image: "/images/projects/kuro-music.png"
+    },
+    {   
+        org: {
+            name: "Mori Dev",
+            url: "https://github.com/MoriDev-2023"
+        },
+        title: "Lavalink Status",
+        description: "เว็บไซต์ดูสถานะเครื่องเล่นเพลงของบอท Mori และ Kuro",
+        url: "https://lavalink-status.jittiphat.site",
+        image: "/images/projects/lavalink-status.png"
     },
     {   
         org: {

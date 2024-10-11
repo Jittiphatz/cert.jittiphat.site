@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-    font-family: "Mitr", sans-serif;
+    font-family: "Noto Sans Thai", sans-serif;
 }
 
 input:-webkit-autofill,
