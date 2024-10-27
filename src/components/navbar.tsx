@@ -10,51 +10,15 @@ export default function Navbar() {
             }`}
         >
             <ul className="w-auto sm:w-[20%] hidden sm:flex items-center justify-center sm:justify-start space-x-6">
-                <a href="https://maki-service.xyz" title="Maki Service Shop">
-                    <img
-                        alt="Maki Service Shop"
-                        width="42"
-                        height="42"
-                        src="images/maki.png"
-                    />
-                </a>
-                <a href="https://github.com/MoriDev-2023" title="Mori Dev">
-                    <img
-                        alt="Mori Dev"
-                        width="42"
-                        height="42"
-                        src="images/mori.png"
-                    />
-                </a>
+                
             </ul>
             <div className="w-full flex justify-center items-center space-x-6 text-base sm:text-lg">
-                <Link to="/">Home</Link>
-                <Link to="/facts">Facts</Link>
-                <Link to="/roles">Roles</Link>
-                <Link to="/works">Works</Link>
-                <Link to="/cert">Certificate</Link>
-                <Link to="/contact">Contact me</Link>
+                <Link to="https://jittiphat.site">Back to Home page</Link>
                 <Link to="https://status.jittiphat.site">Status</Link>
 
             </div>
             <ul className="w-auto sm:w-[20%] flex justify-center items-center sm:justify-end space-x-6">
-                <a className="block sm:hidden" href="https://maki-service.xyz" title="Maki Service Shop">
-                    <img
-                        alt="Maki Service Shop"
-                        width="42"
-                        height="42"
-                        src="images/maki.png"
-                    />
-                </a>
-                <a className="block sm:hidden" href="https://github.com/MoriDev-2023" title="Mori Dev">
-                    <img
-                        alt="Mori Dev"
-                        width="42"
-                        height="42"
-                        src="images/mori.png"
-                    />
-                </a>
-               
+                
             </ul>
         </div>
     );
