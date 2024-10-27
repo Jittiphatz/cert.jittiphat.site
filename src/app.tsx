@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import HomePage from "./pages";
+import HomePage from "./pages/cert";
 import Navbar from "./components/navbar";
 import FactsPage from "./pages/facts";
 import WorksPage from "./pages/works";
 import RolesPage from "./pages/roles";
-import CertPage from "./pages/cert";
 import ContactPage from "./pages/contact";
 import { AnimatePresence } from "framer-motion";
 
@@ -24,10 +23,6 @@ const routes = [
     {
         path: "/works",
         element: <WorksPage />,
-    },
-    {
-        path: "/cert",
-        element: <CertPage />,
     },
     {
         path: "/contact",
