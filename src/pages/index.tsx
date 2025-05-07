@@ -1,38 +1,17 @@
-import "../styles/index.css";
+import { CertCard } from "../components/card";
+import { PageTitle } from "../components/text";
+import { cert } from "../constants/cert";
+import MainTemplate from "../templates/main";
 
-export default function HomePage() {
+export default function Certificate() {
     return (
-        <>
-            <div
-                className="relative h-screen overflow-hidden px-1"
-            >
-                <img
-                    className="absolute top-0 left-0 w-full h-full object-cover bg-aura-animate"
-                    src="/images/bg/bg-red.jpg"
-                    alt="bg-red"
-                />
-                <img
-                    className="absolute top-0 left-0 w-full h-full object-cover object-left bg-photo"
-                    src="/images/bg/drummer.jpg"
-                    alt="drummer"
-                />
-
-                <div className="relative h-full flex justify-center items-center">
-                    <div className="text-center">
-                        <h1 className="text-8xl sm:text-8xl font-normal main-text-animate drop-shadow-md mb-8">
-                            Jittiphat Somsai
-                        </h1>
-                        <p className="text-2xl font-thin description-text-animate">
-                            <span className="whitespace-nowrap">
-                                💻Developer
-                            </span>{" "}
-                            <span className="whitespace-nowrap">
-                                & Drummer🥁
-                            </span>
-                        </p>
-                    </div>
-                </div>
+        <MainTemplate>
+            <PageTitle title="Certificate" description="เกียรติบัตรต่างๆ ของผม" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {cert.map((c, idx) => (
+                    <CertCard key={idx} {...c} />
+                ))}
             </div>
-        </>
+        </MainTemplate>
     );
 }

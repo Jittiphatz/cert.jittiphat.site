@@ -1,10 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import HomePage from "./pages/cert";
+import HomePage from "./pages";
 import Navbar from "./components/navbar";
-import FactsPage from "./pages/facts";
-import WorksPage from "./pages/works";
-import RolesPage from "./pages/roles";
-import ContactPage from "./pages/contact";
 import { AnimatePresence } from "framer-motion";
 
 const routes = [
@@ -13,24 +9,15 @@ const routes = [
         element: <HomePage />,
     },
     {
-        path: "/facts",
-        element: <FactsPage />,
-    },
-    {
-        path: "/roles",
-        element: <RolesPage />,
-    },
-    {
-        path: "/works",
-        element: <WorksPage />,
-    },
-    {
-        path: "/contact",
-        element: <ContactPage />,
-    },
-    {
         path: "*",
-        element: <h1>Not Found</h1>,
+        element: <div className="flex justify-center items-center w-full h-screen">
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-red-500 to-pink-500 opacity-50"></div>
+            <h1 className="text-center text-2xl p-10 text-slate-500 z-10">
+                404 -
+                Page Not Found
+            </h1>
+        </div>,
     },
 ];
 

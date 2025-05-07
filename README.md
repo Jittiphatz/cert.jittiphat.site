@@ -1,5 +1,18 @@
-# about.mannez.site
+# Certification Website | Vite + React
 
-- Node 16.19
-- npm run build
-- vite
+💻 [Preview](https://cert.jittiphat.site)
+
+## Setup
+``` bash
+npm install # Install Dependency
+
+npm run dev # Run Dev Mode
+
+npm run build # Build your Project
+
+npm run preview # Preview your Project
+```
+
+# Screenshot
+
+![image](/public/images/Screenshot.png)
